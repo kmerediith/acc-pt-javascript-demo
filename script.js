@@ -12,7 +12,7 @@ buttonBc.addEventListener('click',()=>{
 })
 
 buttonTitle.addEventListener("click",()=>{
-    mainTitle.textContent= "I am hungry! 🦞"
+    mainTitle.textContent= "I am hungry 🦞"
 })
 
 buttonCir.addEventListener("click",()=>{
@@ -20,6 +20,7 @@ buttonCir.addEventListener("click",()=>{
     circle.style.width = "200px";
     circle.style.height = "200px";
     circle.style.borderRadius = "100%";
+    circle.style.backgroundColor = "blue";
     circle.style.border = "1px solid black";
     body.append(circle);
 })
